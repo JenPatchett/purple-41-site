@@ -30,6 +30,7 @@
 }
 
 .nav-link:active {
+    /* THIS ISN'T WORKING */
     text-decoration: underline !important;
     color: #f3ecf9 !important;
 }
