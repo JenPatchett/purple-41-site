@@ -21,6 +21,19 @@
     border-radius: 7px;
 }
 
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #f3ecf9 !important;
+}
+
+.nav-link:active {
+    text-decoration: underline !important;
+    color: #f3ecf9 !important;
+}
+
 .nav-social-links {
     text-align: center;
     padding: 40px;
@@ -75,12 +88,12 @@ main {
     padding: 0 20px 20px;
 }
 
-main a {
+section a {
     text-decoration: none;
     color: #7E3AB4;
 }
 
-main a:hover {
+section a:hover {
     color: #5e2c87;
 }
 
