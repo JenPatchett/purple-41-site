@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Purple 41 Web Design: Custom Website Design and Maintenance in Harrogate" />
     <title>Purple 41 Web Design</title>
 
     <!-- Custom CSS -->
@@ -18,18 +19,19 @@
 <body>
     <nav id="nav-menu" class="navbar navbar-dark sticky-top navbar-expand-lg py-1">
         <div class="container-fluid nav-container" style="padding-right: 20px;">
-            <a class="navbar-brand" href="/"><img src="/images/Purple-41-Logo-250.png" width="90" height="90"
+            <a class="navbar-brand" href="/"><img src="/images/Purple-41-Logo-250.png"
                     alt="Purple 41 Web Design logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div id="navbar-nav" class="navbar-nav">
                     <a class="nav-link mx-auto active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link mx-auto" href="/#about">About</a>
-                    <a class="nav-link mx-auto" href="/#services">Services</a>
-                    <a class="nav-link mx-auto" href="/#contact">Contact</a>
+                    <a class="nav-link mx-auto" href="#about">About</a>
+                    <a class="nav-link mx-auto" href="#services">Services</a>
+                    <a class="nav-link mx-auto" href="#projects">Projects</a>
+                    <a class="nav-link mx-auto" href="#contact">Contact</a>
                     <a class="btn btn-lg nav-callback-btn" id="nav-callback-btn" href="/#contact" role="button">Request
                         a Callback</a>
                 </div>
@@ -98,7 +100,8 @@
                 <p>Hello, I'm Jen. I design and build custom websites, and maintain existing web and e-commerce sites
                     hosted on platforms such as Wix and WordPress. I founded Purple 41 Web Design in 2023 after
                     branching out as a freelance web developer when a family member asked me to enhance their existing
-                    business website hosted on Wix. Take a look at the Projects section for examples of some of my
+                    business website hosted on Wix. Take a look at the <a href="/#projects">Projects</a> section for
+                    examples of some of my
                     recent work.
                 </p>
                 <p>Do you need a website and have an idea in mind but not sure where to begin? Need to restructure an
@@ -112,6 +115,22 @@
 
         <section id="services">
             <h2>Services</h2>
+            <article>
+                <p>Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat maecenas volutpat
+                    blandit aliquam. Posuere urna nec tincidunt praesent semper feugiat. Volutpat maecenas volutpat
+                    blandit
+                    aliquam etiam erat velit scelerisque in. At auctor urna nunc id cursus metus aliquam. Elementum
+                    tempus
+                    egestas sed sed risus pretium. Duis ut diam quam nulla porttitor massa. Mattis nunc sed blandit
+                    libero.
+                    Faucibus vitae aliquet nec ullamcorper. Volutpat sed cras ornare arcu dui vivamus arcu.</p>
+
+                <a href="/#contact"><button class="button" role="button">Request a Callback</button></a>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
             <article>
                 <p>Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat maecenas volutpat
                     blandit aliquam. Posuere urna nec tincidunt praesent semper feugiat. Volutpat maecenas volutpat
@@ -137,7 +156,8 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>To request a free quotation without obligation please enter your contact details and a brief description
-                of works required. We aim to respond within 24 hours.</p>
+                of works required. I aim to respond within 24 hours, Monday to Friday. If you have not received a
+                response within this time please check your junk email folder.</p>
             <form id="contact-form" name="contact" method="POST" action="#">
                 <fieldset class="mb-3 contact-form">
                     <label for="first-name" class="form-label">First name:</label>
@@ -205,7 +225,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
