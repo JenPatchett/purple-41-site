@@ -43,7 +43,7 @@
     text-underline-offset: 8px;
 }
 
-*/ .nav-social-links {
+.nav-social-links {
     text-align: center;
     padding: 40px;
 }
@@ -115,7 +115,7 @@ section a:hover {
 
 section {
     margin: 50px auto;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 110px;
 }
 
 article {
@@ -139,6 +139,18 @@ article {
 
 .button:active {
     transform: scale(0.98);
+}
+
+#profile-img {
+    width: 160px;
+    border-radius: 7px;
+    padding: 0 20px 0 0;
+}
+
+.profile-img-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 6px 0 20px;
 }
 
 #contact-tel-main-content {
@@ -205,6 +217,15 @@ footer i {
     header h2 {
         font-size: 1rem;
         font-weight: 500;
+    }
+
+    .profile-img-container {
+        display: grid;
+    }
+
+    #profile-img {
+        width: 160px;
+        border-radius: 70px;
     }
 }
 
