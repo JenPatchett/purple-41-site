@@ -220,52 +220,66 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>To request a free quotation without obligation please enter your contact details and a brief description
-                of works required. I aim to respond within 24 hours, Monday to Friday. If you have not received a
-                response within this time please check your junk email folder.</p>
-            <form id="contact-form" name="contact" method="POST" action="#">
-                <fieldset class="mb-3 contact-form">
-                    <label for="first-name" class="form-label">First name:</label>
-                    <input type="text" class="form-control" id="first-name" name="first-name"
-                        title="Enter your first name, maximum 30 characters" maxlength="30" aria-labelledby="first-name"
-                        required>
-                </fieldset>
+            <div class="row">
+                <div id="contact-form-description" class="col-md-6 order-1-xs order-2-md">
+                    <p class="pb-md-3">To request a free quotation without obligation please enter your contact details
+                        and a
+                        brief message.</p>
+                    <p class="pb-md-3">I aim to respond within 24 hours, Monday to Friday. If you have not received
+                        a response within this time please check your junk email folder.</p>
+                    <p>Alternatively, you can contact me by telephone on <a href="tel:+447593534268">07593
+                            534268</a>.
+                    </p>
+                </div>
 
-                <fieldset class="mb-3 contact-form">
-                    <label for="last-name" class="form-label">Last name:</label>
-                    <input type="text" class="form-control" id="last-name" name="last-name"
-                        title="Enter your last name, maximum 30 characters" maxlength="30" aria-labelledby="last-name"
-                        required>
-                </fieldset>
+                <div class="col-md-6 order-2-xs order-1-md">
+                    <form id="contact-form" name="contact" method="POST" action="#">
+                        <fieldset class="mb-3 contact-form">
+                            <label for="first-name" class="form-label">First name:</label>
+                            <input type="text" class="form-control" id="first-name" name="first-name"
+                                title="Enter your first name, maximum 30 characters" maxlength="30"
+                                aria-labelledby="first-name" required>
+                        </fieldset>
 
-                <fieldset class="mb-3 contact-form">
-                    <label for="email" class="form-label">Email address:</label>
-                    <input type="email" class="form-control" id="email" name="email"
-                        title="Enter your email, maximum 50 characters" maxlength="50" aria-labelledby="email" required>
-                </fieldset>
+                        <fieldset class="mb-3 contact-form">
+                            <label for="last-name" class="form-label">Last name:</label>
+                            <input type="text" class="form-control" id="last-name" name="last-name"
+                                title="Enter your last name, maximum 30 characters" maxlength="30"
+                                aria-labelledby="last-name" required>
+                        </fieldset>
 
-                <fieldset class="mb-3 contact-form">
-                    <label for="telephone" class="form-label">Telephone:</label>
-                    <input type="telephone" class="form-control" id="telephone" name="telephone"
-                        title="Enter your telephone number, maximum 13 characters" maxlength="13"
-                        aria-labelledby="telephone" required>
-                </fieldset>
+                        <fieldset class="mb-3 contact-form">
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                title="Enter your email, maximum 50 characters" maxlength="50" aria-labelledby="email"
+                                required>
+                        </fieldset>
 
-                <fieldset class="mb-3 contact-form">
-                    <label for="input-message" class="form-label">Message:</label>
-                    <textarea type="text" class="form-control" id="input-message" name="message"
-                        title="Enter your message, maximum 300 characters" maxlength="300" rows="6" cols="50"
-                        aria-labelledby="input-message" required></textarea>
-                </fieldset>
+                        <fieldset class="mb-3 contact-form">
+                            <label for="telephone" class="form-label">Telephone:</label>
+                            <input type="telephone" class="form-control" id="telephone" name="telephone"
+                                title="Enter your telephone number, maximum 13 characters" maxlength="13"
+                                aria-labelledby="telephone" required>
+                        </fieldset>
 
-                <fieldset id="contact-form-submit" class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="form-check-input" required>
-                    <label class="form-check-label" for="form-check-input">I agree to the <a href="#">terms</a>
-                        and <a href="#">privacy policy</a></label>
-                    <button id="contact-submit-btn" type="submit" class="button float-end">Submit</button>
-                </fieldset>
+                        <fieldset class="mb-3 contact-form">
+                            <label for="input-message" class="form-label">Message:</label>
+                            <textarea type="text" class="form-control" id="input-message" name="message"
+                                title="Enter your message, maximum 300 characters" maxlength="300" rows="6" cols="50"
+                                aria-labelledby="input-message" required></textarea>
+                        </fieldset>
 
-            </form>
+                        <fieldset id="contact-form-submit" class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="form-check-input" required>
+                            <label class="form-check-label" for="form-check-input">I agree to the <a href="#">terms</a>
+                                and <a href="#">privacy policy</a></label>
+                            <button id="contact-submit-btn" type="submit" class="button float-end">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
         </section>
 
     </main>
