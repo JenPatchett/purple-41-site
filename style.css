@@ -91,16 +91,23 @@ header h2 {
 /* MAIN CONTENT */
 
 body {
-    height: 100%;
-    overflow-y: scroll;
-    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
-    max-width: 1300px;
+    width: 100%;
     margin: auto;
     font-size: 16px;
-    padding: 0 20px 20px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    scroll-margin-top: 110px;
 }
 
 section a {
@@ -111,11 +118,6 @@ section a {
 
 section a:hover {
     color: #5e2c87;
-}
-
-section {
-    margin: 50px auto;
-    scroll-margin-top: 110px;
 }
 
 article {
